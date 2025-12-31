@@ -10,4 +10,12 @@ onHide(() => {
   console.log('App Hide')
 })
 </script>
-<style></style>
+<style>
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+page {
+  @apply bg-gray-50;
+}
+</style>

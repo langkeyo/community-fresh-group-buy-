@@ -74,10 +74,35 @@
   },
   // 配置底部tabBar
   "tabBar": {
-    "color": "#666",
+    "color": "#666666", // 未选中态文字颜色
     "selectedColor": "#F08800", // 选中态匹配主色
-    "backgroundColor": "#fff",
+    "backgroundColor": "#ffffff",
     "borderStyle": "black",
-    "list": []
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/tabbar/home.png",
+        "selectedIconPath": "static/tabbar/home-active.png"
+      },
+      {
+        "pagePath": "pages/goods/goods",
+        "text": "商品",
+        "iconPath": "static/tabbar/goods.png",
+        "selectedIconPath": "static/tabbar/goods-active.png"
+      },
+      {
+        "pagePath": "pages/group-buy/group-buy",
+        "text": "拼团",
+        "iconPath": "static/tabbar/group.png",
+        "selectedIconPath": "static/tabbar/group-active.png"
+      },
+      {
+        "pagePath": "pages/order/order",
+        "text": "订单",
+        "iconPath": "static/tabbar/order.png",
+        "selectedIconPath": "static/tabbar/order-active.png"
+      }
+    ]
   }
 }
