@@ -1,0 +1,83 @@
+{
+  "pages": [
+    //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "Ligo生鲜团购",
+        "navigationBarBackgroundColor": "#F08800",
+        "navigationBarTextStyle": "white",
+        "enablePullDownRefresh": true // 开启下拉刷新
+      }
+    },
+    // 商品列表页
+    {
+      "path": "pages/goods/goods",
+      "style": {
+        "navigationBarTitleText": "生鲜商品",
+        "navigationBarBackgroundColor": "#F08800",
+        "navigationBarTextStyle": "white"
+      }
+    },
+    // 拼团页
+    {
+      "path": "pages/group-buy/group-buy",
+      "style": {
+        "navigationBarTitleText": "发起拼团",
+        "navigationBarBackgroundColor": "#F08800",
+        "navigationBarTextStyle": "white"
+      }
+    },
+    // AI食材助手页
+    {
+      "path": "pages/ai-food/ai-food",
+      "style": {
+        "navigationBarTitleText": "AI食材推荐",
+        "navigationBarBackgroundColor": "#F08800",
+        "navigationBarTextStyle": "white"
+      }
+    },
+    // 团长页
+    {
+      "path": "pages/leader/leader",
+      "style": {
+        "navigationBarTitleText": "团长中心",
+        "navigationBarBackgroundColor": "#F08800",
+        "navigationBarTextStyle": "white"
+      }
+    },
+    // 订单页
+    {
+      "path": "pages/order/order",
+      "style": {
+        "navigationBarTitleText": "我的订单",
+        "navigationBarBackgroundColor": "#F08800",
+        "navigationBarTextStyle": "white"
+      }
+    },
+    // 自提点页
+    {
+      "path": "pages/self-pick/self-pick",
+      "style": {
+        "navigationBarTitleText": "自提网点",
+        "navigationBarBackgroundColor": "#F08800",
+        "navigationBarTextStyle": "white"
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "white", // 全局导航栏文字默认白色
+    "navigationBarTitleText": "邻里鲜拼", // 全局默认标题
+    "navigationBarBackgroundColor": "#F08800", // 全局导航栏背景
+    "backgroundColor": "#F8F8F8", // 页面背景色
+    "backgroundTextStyle": "dark" // 下拉刷新文字颜色
+  },
+  // 配置底部tabBar
+  "tabBar": {
+    "color": "#666",
+    "selectedColor": "#F08800", // 选中态匹配主色
+    "backgroundColor": "#fff",
+    "borderStyle": "black",
+    "list": []
+  }
+}
